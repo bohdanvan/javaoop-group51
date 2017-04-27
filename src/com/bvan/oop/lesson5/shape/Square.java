@@ -1,12 +1,15 @@
-package com.bvan.oop.lesson3.shape;
+package com.bvan.oop.lesson5.shape;
 
 import com.bvan.oop.common.Immutable;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author bvanchuhov
  */
 @Immutable
-public class Square implements Shape {
+public class Square extends Polygon {
 
     private final Rectangle rectangle;
 
@@ -22,13 +25,14 @@ public class Square implements Shape {
     }
 
     @Override
-    public double getPerimeter() {
-        return rectangle.getPerimeter();
+    public double getArea() {
+        return rectangle.getArea();
     }
 
     @Override
-    public double getArea() {
-        return rectangle.getArea();
+    protected List<Double> getSides() {
+        double side = getSide();
+        return Arrays.asList(side, side, side, side);
     }
 
     public double getSide() {
