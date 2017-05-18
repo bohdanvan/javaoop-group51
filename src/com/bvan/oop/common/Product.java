@@ -4,29 +4,29 @@ package com.bvan.oop.common;
  * @author bvanchuhov
  */
 @Immutable
-public class Person {
+public class Product {
 
     private final String name;
-    private final int age;
+    private final int price;
 
-    public Person(String name, int age) {
+    public Product(String name, int price) {
         this.name = name;
-        this.age = age;
+        this.price = price;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getAge() {
-        return age;
+    public int getPrice() {
+        return price;
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Product{" +
                 "name='" + name + '\'' +
-                ", age=" + age +
+                ", price=" + price +
                 '}';
     }
 }
