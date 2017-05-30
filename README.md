@@ -23,6 +23,8 @@ Prog.kiev.ua. Java OOP. Группа 51
 
 [Java OOP. Богдан. Группа 51. Лекция 10 (24.05.2017)](https://prog.kiev.ua/forum/index.php/topic,2933.0.html)
 
+[Java OOP. Богдан. Группа 51. Лекция 11 (29.05.2017)](https://prog.kiev.ua/forum/index.php/topic,2943.0.html)
+
 ## Видео/аудио лекций другой группы
 
 [Видеозапись лекций](https://mega.nz/#F!fI9ACBqB)
